@@ -1,0 +1,7406 @@
+{
+	"info": {
+		"_postman_id": "40386a23-7313-4a85-b7a6-503ff874ce56",
+		"name": "Cisco ISE API - OpenAPI",
+		"description": "ISE OpenAPI resources up to and including ISE 3.4.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30038312"
+	},
+	"item": [
+		{
+			"name": "5G",
+			"item": [
+				{
+					"name": "Subscriber",
+					"item": [
+						{
+							"name": "subscriber",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber/{subscriberId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber",
+										"{{subscriberId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber/{subscriberId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber",
+										"{{subscriberId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber/{subscriberId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber",
+										"{{subscriberId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber/imsi/{imsi}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber/imsi/{{imsi}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber",
+										"imsi",
+										"{{imsi}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "subscriber/bulk",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/subscriber/bulk",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"subscriber",
+										"bulk"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "User Equipment",
+					"item": [
+						{
+							"name": "user equipment",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user equipment",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user equipment/{userEquipmentId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"{{userEquipmentId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user equipment/{userEquipmentId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"{{userEquipmentId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user equipment/{userEquipmentId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"{{userEquipmentId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user-equipment/subscriber/{subscriberId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/subscriber/{{subscriberId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"subscriber",
+										"{{subscriberId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user-equipment/imei/{imei}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/imei/{{imei}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"imei",
+										"{{imei}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user-equipment/csv",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/csv",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"csv"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "user-equipment/bulk",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/fiveg/user-equipment/bulk",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"fiveg",
+										"user-equipment",
+										"bulk"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Backup and Restore",
+			"item": [
+				{
+					"name": "backup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/backup",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"backup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cancel-backup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/cancel-backup",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"cancel-backup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "last-backup-status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/last-backup-status",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"last-backup-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "restore",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/restore",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"restore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "schedule-config-backup",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/schedule-config-backup",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"schedule-config-backup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "schedule-config-backup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/backup-restore/config/schedule-config-backup",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"backup-restore",
+								"config",
+								"schedule-config-backup"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Certificates",
+			"item": [
+				{
+					"name": "certificate-signing-request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "certificate-signing-request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "certificate-signing-request/export/{hostname}/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/export/{{hostname}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request",
+								"export",
+								"{{hostname}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "certificate-signing-request/intermediate-ca",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}{{baseurl}}/api/v1/certs/certificate-signing-request/intermediate-ca",
+							"host": [
+								"{{baseurl}}{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request",
+								"intermediate-ca"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "certificate-signing-request/{hostname}/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request",
+								"{{hostname}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "certificate-signing-request/{hostname}/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"certificate-signing-request",
+								"{{hostname}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ise-root-ca/regenerate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/ise-root-ca/regenerate",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"ise-root-ca",
+								"regenerate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "renew-certificate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/renew-certificate",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"renew-certificate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signed-certificate/bind",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/signed-certificate/bind",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"signed-certificate",
+								"bind"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/export",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/export",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"export"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/generate-selfsigned-certificate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/generate-selfsigned-certificate",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"generate-selfsigned-certificate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/import",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/import",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"import"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/{hostName}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"{{hostName}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/{hostName}/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"{{hostName}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/{hostName}/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"{{hostName}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "system-certificate/{hostName}/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"system-certificate",
+								"{{hostName}}",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate/export/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/export/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate",
+								"export",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate/import",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/import",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate",
+								"import"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "trusted-certificate/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"certs",
+								"trusted-certificate",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Custom Attributes",
+			"item": [
+				{
+					"name": "endpoint-custom-attribute",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint-custom-attribute",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint-custom-attribute"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint-custom-attribute",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint-custom-attribute",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint-custom-attribute"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint-custom-attribute/rename",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint-custom-attribute/rename",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint-custom-attribute",
+								"rename"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint-custom-attribute/{name}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint-custom-attribute/{{name}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint-custom-attribute",
+								"{{name}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint-custom-attribute/{name} Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint-custom-attribute/{{name}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint-custom-attribute",
+								"{{name}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Data Connect",
+			"item": [
+				{
+					"name": "details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/mnt/data-connect/details",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mnt",
+								"data-connect",
+								"details"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "settings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mnt",
+								"data-connect",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "settings/password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/password",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mnt",
+								"data-connect",
+								"settings",
+								"password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "settings/expiry",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/password/expiry",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mnt",
+								"data-connect",
+								"settings",
+								"password",
+								"expiry"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "settings/status",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/status",
+							"host": [
+								"{{baseurl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"mnt",
+								"data-connect",
+								"settings",
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Deployment",
+			"item": [
+				{
+					"name": "Node Deployment",
+					"item": [
+						{
+							"name": "node Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/deployment/node",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/deployment/node",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "primary",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/primary",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"primary"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "standalone",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/standalone",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"standalone"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node/{hostname}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node/{hostname}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node/{hostname}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "sync-node/{hostname}",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/sync-node/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"sync-node",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "promote",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/promote",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"promote"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Node Group",
+					"item": [
+						{
+							"name": "node-group",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}/add-node",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/add-node",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}",
+										"add-node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}/remove-node",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/remove-node",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}",
+										"remove-node"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "node-group/{nodeGroupName}/node",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/node",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"node-group",
+										"{{nodeGroupName}}",
+										"node"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PAN HA",
+					"item": [
+						{
+							"name": "pan-ha",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/pan-ha",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"pan-ha"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "pan-ha",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/deployment/pan-ha",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"deployment",
+										"pan-ha"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Node Services",
+					"item": [
+						{
+							"name": "{hostname}/interface",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/interface",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"node",
+										"{{hostname}}",
+										"interface"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{hostname}/sxp-interface",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/sxp-interface",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"node",
+										"{{hostname}}",
+										"sxp-interface"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{hostname}/sxp-interface",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/sxp-interface",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"node",
+										"{{hostname}}",
+										"sxp-interface"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "profile/{hostname}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/profile/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"profile",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "profile/{hostname}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseurl}}/api/v1/profile/{{hostname}}",
+									"host": [
+										"{{baseurl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"profile",
+										"{{hostname}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Duo Identity Sync",
+			"item": [
+				{
+					"name": "ActiveDirectories",
+					"item": [
+						{
+							"name": "activedirectories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/activedirectories",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"activedirectories"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "ADGroups",
+					"item": [
+						{
+							"name": "adgroups/{activeDirectory}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/adgroups/{{activeDirectory}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"adgroups",
+										"{{activeDirectory}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Duo-IdentitySync",
+					"item": [
+						{
+							"name": "identitysync",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/identitysync",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "identitysync",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/identitysync",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "status/{syncName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/identitysync/status/{{syncName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"status",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "sync/{syncName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-identitysync/identitysync/sync/cancel/{{syncName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"sync",
+										"cancel",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "sync/{syncName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{hostname}}/api/v1/duo-identitysync/identitysync/sync/{{syncName}}",
+									"host": [
+										"{{hostname}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"sync",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "identitysync/{syncName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{hostname}}/api/v1/duo-identitysync/identitysync/{{syncName}}",
+									"host": [
+										"{{hostname}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "identitysync/{syncName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{hostname}}/api/v1/duo-identitysync/identitysync/{{syncName}}",
+									"host": [
+										"{{hostname}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "identitysync/{syncName}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{hostname}}/api/v1/duo-identitysync/identitysync/{{syncName}}",
+									"host": [
+										"{{hostname}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-identitysync",
+										"identitysync",
+										"{{syncName}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Endpoints",
+			"item": [
+				{
+					"name": "endpoint",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/bulk",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/bulk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/bulk",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/bulk",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/bulk",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deviceType/summary",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/deviceType/summary",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"deviceType",
+								"summary"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/{value}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/{{value}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"{{value}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/{value}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/{{value}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"{{value}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpoint/{value}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpoint/{{value}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpoint",
+								"{{value}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "endpointTask",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/endpointTask",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"endpointTask"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Endpoint Replication",
+			"item": [
+				{
+					"name": "stop-replication",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/stop-replication",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"stop-replication"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stop-replication",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/stop-replication",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"stop-replication"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "IPsec",
+			"item": [
+				{
+					"name": "Native IPsec",
+					"item": [
+						{
+							"name": "ipsec",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec/bulk",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/bulk",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"bulk"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec/certificates",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/bulk/certificates",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"bulk",
+										"certificates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "disable/{hostName}/{nadIp}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/disable/{{hostName}}/{{nadIp}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"disable",
+										"{{hostName}}",
+										"{{nadIp}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "enable/{hostName}/{nadIp}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/enable/{{hostName}}/{{nadIp}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"enable",
+										"{{hostName}}",
+										"{{nadIp}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec/{hostName}/{nadIp}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/{{hostName}}/{{nadIp}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"{{hostName}}",
+										"{{nadIp}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ipsec/{hostName}/{nadIp}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/ipsec/{{hostName}}/{{nadIp}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"ipsec",
+										"{{hostName}}",
+										"{{nadIp}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "License",
+			"item": [
+				{
+					"name": "connection-type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/connection-type",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"connection-type"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eval-license",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/eval-license",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"eval-license"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "miscellaneous-license",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/feature-to-tier-mapping",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"feature-to-tier-mapping"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "miscellaneous-license",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/feature-to-tier-mapping",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"feature-to-tier-mapping"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/register",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/register",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "smart-state",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/smart-state",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"smart-state"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "smart-state",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/smart-state",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"smart-state"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tier-state",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/tier-state",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"tier-state"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tier-state",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/license/system/tier-state",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"license",
+								"system",
+								"tier-state"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LSD Settings",
+			"item": [
+				{
+					"name": "updateLsdSettings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/lsd/updateLsdSettings",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"lsd",
+								"updateLsdSettings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateLsdSettings",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/lsd/updateLsdSettings",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"lsd",
+								"updateLsdSettings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MFA",
+			"item": [
+				{
+					"name": "enable-MFA",
+					"item": [
+						{
+							"name": "enable",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/enable",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"enable"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Duo-MFA",
+					"item": [
+						{
+							"name": "mfa",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "testconnection/{connectionName}",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa/testconnection/{{connectionName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa",
+										"testconnection",
+										"{{connectionName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{connectionName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa/{{connectionName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa",
+										"{{connectionName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{connectionName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa/{{connectionName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa",
+										"{{connectionName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{connectionName}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/mfa/{{connectionName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"mfa",
+										"{{connectionName}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "is-MFA-Enabled",
+					"item": [
+						{
+							"name": "status",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/duo-mfa/status",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"duo-mfa",
+										"status"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Patch and Hot Patch",
+			"item": [
+				{
+					"name": "hotpatch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/hotpatch",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"hotpatch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hotpatch install",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/hotpatch/install",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"hotpatch",
+								"install"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hotpatch rollback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/hotpatch/rollback",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"hotpatch",
+								"rollback"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/patch",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"patch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch install",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/patch/install",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"patch",
+								"install"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "patch rollback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/patch/rollback",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"patch",
+								"rollback"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Policy",
+			"item": [
+				{
+					"name": "Device Administration - Command Sets",
+					"item": [
+						{
+							"name": "command-sets",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/command-sets",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"command-sets"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Conditions",
+					"item": [
+						{
+							"name": "condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policyset",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/policyset",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"policyset"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Dictionary Attributes List",
+					"item": [
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/dictionaries/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"dictionaries",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/dictionaries/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"dictionaries",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policyset",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/dictionaries/policyset",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"dictionaries",
+										"policyset"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Identity Stores",
+					"item": [
+						{
+							"name": "identity-stores",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/identity-stores",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"identity-stores"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Network Conditions",
+					"item": [
+						{
+							"name": "network-condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/network-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"network-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/network-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"network-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Policy Sets",
+					"item": [
+						{
+							"name": "policy-set",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Authorization Global Exception Rules",
+					"item": [
+						{
+							"name": "global-exception",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Authentication Rules",
+					"item": [
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Authorization Rules",
+					"item": [
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Authorization Exception Rules",
+					"item": [
+						{
+							"name": "exception",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - MFA Rules",
+					"item": [
+						{
+							"name": "mfa",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/reset-hitcount",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{{policyId}}/mfa/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{{policyId}}",
+										"mfa",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{policyId}/mfa/{ruleId}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{policyId}",
+										"mfa",
+										"{ruleId}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{policyId}/mfa/{ruleId}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{policyId}",
+										"mfa",
+										"{ruleId}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/policy-set/{policyId}/mfa/{ruleId}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"policy-set",
+										"{policyId}",
+										"mfa",
+										"{ruleId}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Service Names",
+					"item": [
+						{
+							"name": "service-names",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/service-names",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"service-names"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Shell Profiles",
+					"item": [
+						{
+							"name": "shell-profiles",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/shell-profiles",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"shell-profiles"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Device Administration - Time/Date Conditions",
+					"item": [
+						{
+							"name": "time-condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/time-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"time-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/time-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"time-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/device-admin/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"device-admin",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Authorization Profiles",
+					"item": [
+						{
+							"name": "authorization-profiles",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/authorization-profiles",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"authorization-profiles"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Conditions",
+					"item": [
+						{
+							"name": "condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition /condition-by-name",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/condition-by-name/{conditionName}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"condition-by-name",
+										"{conditionName}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policyset",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/policyset",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"policyset"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Dictionaries",
+					"item": [
+						{
+							"name": "dictionaries",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dictionaries",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dictionaries/{name}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/{{name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{name}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dictionaries/{name}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/{{name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{name}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dictionaries/{name}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/{{name}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{name}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Dictionary Attributes List",
+					"item": [
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policyset",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/policyset",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"policyset"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Dictionary Attributes",
+					"item": [
+						{
+							"name": "attribute",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/{{dictionaryName}}/attribute",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{dictionaryName}}",
+										"attribute"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "attribute",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/dictionaries/{{dictionaryName}}/attribute",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{dictionaryName}}",
+										"attribute"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "attribute/{attributeName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "/api/v1/policy/network-access/dictionaries/{{dictionaryName}}/attribute/{{attributeName}}",
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{dictionaryName}}",
+										"attribute",
+										"{{attributeName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "attribute/{attributeName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "/api/v1/policy/network-access/dictionaries/{{dictionaryName}}/attribute/{{attributeName}}",
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{dictionaryName}}",
+										"attribute",
+										"{{attributeName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "attribute/{attributeName}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "/api/v1/policy/network-access/dictionaries/{{dictionaryName}}/attribute/{{attributeName}}",
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"dictionaries",
+										"{{dictionaryName}}",
+										"attribute",
+										"{{attributeName}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Identity Stores",
+					"item": [
+						{
+							"name": "identity-stores",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/identity-stores",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"identity-stores"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Network Conditions",
+					"item": [
+						{
+							"name": "network-condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/network-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"network-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/network-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"network-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "network-condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/network-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"network-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Policy Sets",
+					"item": [
+						{
+							"name": "policy-set",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "policy-set/{policyId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Authorization Global Exception Rules",
+					"item": [
+						{
+							"name": "global-exception",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "global-exception/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/global-exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"global-exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Authentication Rules",
+					"item": [
+						{
+							"name": "authentication",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authentication/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authentication/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authentication",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Authorization Rules",
+					"item": [
+						{
+							"name": "authorization",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorization/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/authorization/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"authorization",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Authorization Exception Rules",
+					"item": [
+						{
+							"name": "exception",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/reset-hitcount",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "exception/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/exception/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"exception",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - MFA Rules",
+					"item": [
+						{
+							"name": "mfa",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/reset-hitcount",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa/reset-hitcount",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa",
+										"reset-hitcount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "mfa/{ruleId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/policy-set/{{policyId}}/mfa/{{ruleId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"policy-set",
+										"{{policyId}}",
+										"mfa",
+										"{{ruleId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Security Groups",
+					"item": [
+						{
+							"name": "security-groups",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/security-groups",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"security-groups"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Service Names",
+					"item": [
+						{
+							"name": "service-names",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/service-names",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"service-names"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Network Access - Time/Date Conditions",
+					"item": [
+						{
+							"name": "time-condition",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/time-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"time-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/time-condition",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"time-condition"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "time-condition/{conditionId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/policy/network-access/time-condition/{{conditionId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"policy",
+										"network-access",
+										"time-condition",
+										"{{conditionId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "pxGrid Direct",
+			"item": [
+				{
+					"name": "pxGrid Direct",
+					"item": [
+						{
+							"name": "connector-config",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/connector-config",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"connector-config"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "connector-config",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/connector-config",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"connector-config"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "connector-config/{connectorName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/connector-config/{{connectorName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"connector-config",
+										"{{connectorName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "connector-config/{connectorName}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/connector-config/{{connectorName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"connector-config",
+										"{{connectorName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "connector-config/{connectorName}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/connector-config/{{connectorName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"connector-config",
+										"{{connectorName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "dictionary-references",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/dictionary-references",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"dictionary-references"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "syncNowStatus/{connectorName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/syncNowStatus/{{connectorName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"syncNowStatus",
+										"{{connectorName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "syncnow",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/syncnow",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"syncnow"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "test-connector",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/test-connector",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"test-connector"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "pxGrid Direct Push APIs",
+					"item": [
+						{
+							"name": "{connectorName}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/push/{{connectorName}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"push",
+										"{{connectorName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{connectorName}/bulk",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/push/{{connectorName}}/bulk",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"push",
+										"{{connectorName}}",
+										"bulk"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{connectorName}/{uniqueId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/push/{{connectorName}}/{{uniqueId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"push",
+										"{{connectorName}}",
+										"{{uniqueId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{connectorName}/{uniqueId}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/push/{{connectorName}}/{{uniqueId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"push",
+										"{{connectorName}}",
+										"{{uniqueId}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "{connectorName}/{uniqueId}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/pxgrid-direct/push/{{connectorName}}/{{uniqueId}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"pxgrid-direct",
+										"push",
+										"{{connectorName}}",
+										"{{uniqueId}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "SGT Reservation",
+			"item": [
+				{
+					"name": "reservation",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sgt/reservation",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"sgt",
+								"reservation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reservationRange",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sgt/reservation/reserveRange",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"sgt",
+								"reservation",
+								"reserveRange"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reservation/{clientID}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sgt/reservation/{{clientID}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"sgt",
+								"reservation",
+								"{{clientID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reservation/{clientID}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sgt/reservation/{{clientID}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"sgt",
+								"reservation",
+								"{{clientID}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reservation/{clientID}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sgt/reservation/{{clientID}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"sgt",
+								"reservation",
+								"{{clientID}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "System Settings",
+			"item": [
+				{
+					"name": "proxy",
+					"item": [
+						{
+							"name": "proxy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/system-settings/proxy",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"system-settings",
+										"proxy"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "proxy",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/system-settings/proxy",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"system-settings",
+										"proxy"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "telemetry",
+					"item": [
+						{
+							"name": "transport-gateway",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/system-settings/telemetry/transport-gateway",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"system-settings",
+										"telemetry",
+										"transport-gateway"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "transport-gateway",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/system-settings/telemetry/transport-gateway",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"system-settings",
+										"telemetry",
+										"transport-gateway"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Task Service",
+			"item": [
+				{
+					"name": "task",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/task",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "task/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/task/{{id}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"task",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TrustSec",
+			"item": [
+				{
+					"name": "nbarapp",
+					"item": [
+						{
+							"name": "nbarapp",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/sgacl/nbarapp",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"sgacl",
+										"nbarapp"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "nbarapp",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/sgacl/nbarapp",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"sgacl",
+										"nbarapp"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "nbarapp/{id}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/sgacl/nbarapp/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"sgacl",
+										"nbarapp",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "nbarapp/{id}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/sgacl/nbarapp/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"sgacl",
+										"nbarapp",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "nbarapp/{id}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/sgacl/nbarapp/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"sgacl",
+										"nbarapp",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "virtualnetwork",
+					"item": [
+						{
+							"name": "virtualnetwork",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/bulk/create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/bulk/create",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"bulk",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/bulk/delete",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/bulk/delete",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"bulk",
+										"delete"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/bulk/update",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/bulk/update",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"bulk",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/{id}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/{id}",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "virtualnetwork/{id}",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/trustsec/virtualnetwork/{{id}}",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"trustsec",
+										"virtualnetwork",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Repository",
+			"item": [
+				{
+					"name": "repository",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repository",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repository/{repositoryName}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository/{{repositoryName}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository",
+								"{{repositoryName}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repository/{repositoryName}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository/{{repositoryName}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository",
+								"{{repositoryName}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repository/{repositoryName}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository/{{repositoryName}}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository",
+								"{{repositoryName}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "repository/{repositoryName}/files",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/repository/{{repositoryName}}/files",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"repository",
+								"{{repositoryName}}",
+								"files"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Upgrade",
+			"item": [
+				{
+					"name": "prepare/get-status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/prepare/get-status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"prepare",
+								"get-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "prepare/pre-checks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/prepare/pre-checks",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"prepare",
+								"pre-checks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "proceed/get-status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/proceed/get-status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"proceed",
+								"get-status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "proceed/initiate-upgrade",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/proceed/initiate-upgrade",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"proceed",
+								"initiate-upgrade"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stage/cancel-stage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/stage/cancel-stage",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"stage",
+								"cancel-stage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stage/start-stage",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/stage/start-stage",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"stage",
+								"start-stage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "summary/get-status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/upgrade/summary/get-status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"upgrade",
+								"summary",
+								"get-status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "C1sco12345",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "admin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "ise.securitydemo.net",
+			"type": "string"
+		},
+		{
+			"key": "port",
+			"value": "443",
+			"type": "string"
+		},
+		{
+			"key": "baseUrl",
+			"value": "https://{{server}}:{{port}}",
+			"type": "string"
+		},
+		{
+			"key": "rest_username",
+			"value": "admin",
+			"type": "string"
+		},
+		{
+			"key": "rest_password",
+			"value": "C1sco12345",
+			"type": "string"
+		},
+		{
+			"key": "guestuser_username",
+			"value": "guestapi",
+			"type": "string"
+		},
+		{
+			"key": "guestuser_password",
+			"value": "C1sco12345",
+			"type": "string"
+		}
+	]
+}
