@@ -14,9 +14,9 @@ Cisco ISE allows API access to manage Cisco ISE nodes through two sets of API fo
 
 [ISE API Documentation](https://developer.cisco.com/docs/identity-services-engine/latest/)  : Complete documentation for the APIs  
 
-[ISE @ Cisco DevNet](https://developer.cisco.com/site/ise/)  : Site for ISE APIs, sample code, and sandboxes to learn and play  
+[ISE @ Cisco DevNet](https://developer.cisco.com/identity-services-engine/)  : Site for ISE APIs, sample code, and sandboxes to learn and play  
 
-[ERS, MNT, pxGRID APIs](https://github.com/CiscoISE/postman)  : GitHub repository containing the Postman collections for the ISE ERS, MNT, and pxGRID APIs  
+[ERS, MNT, pxGRID APIs](https://github.com/1homas/ise-postman-collections)  : GitHub repository containing the Postman collections for the ISE ERS, MNT, and pxGRID APIs  
 
 
 ## Installing the Postman Collection
