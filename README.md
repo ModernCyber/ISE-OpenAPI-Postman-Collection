@@ -4,7 +4,7 @@ This repo contains the Postman collection for the ISE OpenAPI APIs.
 
 ## Postman
 
-Postman is a popular collaboration platform for learning, development, and testing of REST APIs.
+[Postman](https://www.postman.com/) is a popular collaboration platform for learning, development, and testing of REST APIs.
 
 ## Cisco ISE API Service
 
@@ -12,9 +12,15 @@ Cisco ISE allows API access to manage Cisco ISE nodes through two sets of API fo
 
 ## Resources
 
-[ISE API Documentation](https://developer.cisco.com/docs/identity-services-engine/latest/) : complete documentation for the APIs
-[ISE @ Cisco DevNet](https://developer.cisco.com/site/ise/) : site for ISE APIs, sample code and sandboxes to learn and play
-[ERS, MNT, pxGRID APIs](https://github.com/CiscoISE/postman) : Github repository containing the Postman collections for the ISE ERS, MNT, and pxGRID APIs
+[ISE API Documentation](https://developer.cisco.com/docs/identity-services-engine/latest/)  
+Complete documentation for the APIs  
+
+[ISE @ Cisco DevNet](https://developer.cisco.com/site/ise/)  
+Site for ISE APIs, sample code, and sandboxes to learn and play  
+
+[ERS, MNT, pxGRID APIs](https://github.com/CiscoISE/postman)  
+GitHub repository containing the Postman collections for the ISE ERS, MNT, and pxGRID APIs  
+
 
 ## Installing the Postman Collection
 
