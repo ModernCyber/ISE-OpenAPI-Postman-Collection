@@ -334,9 +334,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/backup",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/backup",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -355,9 +355,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/cancel-backup",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/cancel-backup",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -376,9 +376,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/last-backup-status",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/last-backup-status",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -397,9 +397,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/restore",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/restore",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -418,9 +418,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/schedule-config-backup",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/schedule-config-backup",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -439,9 +439,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/backup-restore/config/schedule-config-backup",
+							"raw": "{{baseUrl}}/api/v1/backup-restore/config/schedule-config-backup",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -465,9 +465,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request",
+							"raw": "{{baseUrl}}/api/v1/certs/certificate-signing-request",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -485,9 +485,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request",
+							"raw": "{{baseUrl}}/api/v1/certs/certificate-signing-request",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -505,9 +505,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/export/{{hostname}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/certificate-signing-request/export/{{hostname}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -528,9 +528,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}{{baseurl}}/api/v1/certs/certificate-signing-request/intermediate-ca",
+							"raw": "{{baseUrl}}{{baseUrl}}/api/v1/certs/certificate-signing-request/intermediate-ca",
 							"host": [
-								"{{baseurl}}{{baseurl}}"
+								"{{baseUrl}}{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -549,9 +549,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -571,9 +571,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/certificate-signing-request/{{hostname}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -593,9 +593,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/ise-root-ca/regenerate",
+							"raw": "{{baseUrl}}/api/v1/certs/ise-root-ca/regenerate",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -614,9 +614,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/renew-certificate",
+							"raw": "{{baseUrl}}/api/v1/certs/renew-certificate",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -634,9 +634,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/signed-certificate/bind",
+							"raw": "{{baseUrl}}/api/v1/certs/signed-certificate/bind",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -655,9 +655,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/export",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/export",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -676,9 +676,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/generate-selfsigned-certificate",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/generate-selfsigned-certificate",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -697,9 +697,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/import",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/import",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -718,9 +718,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/{{hostName}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -739,9 +739,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -761,9 +761,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -783,9 +783,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/system-certificate/{{hostName}}/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -805,9 +805,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -825,9 +825,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/export/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate/export/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -847,9 +847,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/import",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate/import",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -868,9 +868,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -889,9 +889,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -910,9 +910,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/certs/trusted-certificate/{{id}}",
+							"raw": "{{baseUrl}}/api/v1/certs/trusted-certificate/{{id}}",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1039,9 +1039,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/mnt/data-connect/details",
+							"raw": "{{baseUrl}}/api/v1/mnt/data-connect/details",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1060,9 +1060,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings",
+							"raw": "{{baseUrl}}/api/v1/mnt/data-connect/settings",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1081,9 +1081,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/password",
+							"raw": "{{baseUrl}}/api/v1/mnt/data-connect/settings/password",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1103,9 +1103,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/password/expiry",
+							"raw": "{{baseUrl}}/api/v1/mnt/data-connect/settings/password/expiry",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1126,9 +1126,9 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "{{baseurl}}/api/v1/mnt/data-connect/settings/status",
+							"raw": "{{baseUrl}}/api/v1/mnt/data-connect/settings/status",
 							"host": [
-								"{{baseurl}}"
+								"{{baseUrl}}"
 							],
 							"path": [
 								"api",
@@ -1196,9 +1196,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/primary",
+									"raw": "{{baseUrl}}/api/v1/deployment/primary",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1216,9 +1216,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/standalone",
+									"raw": "{{baseUrl}}/api/v1/deployment/standalone",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1236,9 +1236,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node",
+									"raw": "{{baseUrl}}/api/v1/deployment/node",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1256,9 +1256,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node",
+									"raw": "{{baseUrl}}/api/v1/deployment/node",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1276,9 +1276,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1297,9 +1297,9 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1318,9 +1318,9 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1339,9 +1339,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/sync-node/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/sync-node/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1360,9 +1360,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/promote",
+									"raw": "{{baseUrl}}/api/v1/deployment/promote",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1385,9 +1385,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1405,9 +1405,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1425,9 +1425,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1446,9 +1446,9 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1467,9 +1467,9 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1488,9 +1488,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/add-node",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}/add-node",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1510,9 +1510,9 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/remove-node",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}/remove-node",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1532,9 +1532,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/node-group/{{nodeGroupName}}/node",
+									"raw": "{{baseUrl}}/api/v1/deployment/node-group/{{nodeGroupName}}/node",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1559,9 +1559,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/pan-ha",
+									"raw": "{{baseUrl}}/api/v1/deployment/pan-ha",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1579,9 +1579,9 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/deployment/pan-ha",
+									"raw": "{{baseUrl}}/api/v1/deployment/pan-ha",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1604,9 +1604,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/interface",
+									"raw": "{{baseUrl}}/api/v1/node/{{hostname}}/interface",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1625,9 +1625,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/sxp-interface",
+									"raw": "{{baseUrl}}/api/v1/node/{{hostname}}/sxp-interface",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1646,9 +1646,9 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/node/{{hostname}}/sxp-interface",
+									"raw": "{{baseUrl}}/api/v1/node/{{hostname}}/sxp-interface",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1667,9 +1667,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/profile/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/profile/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
@@ -1687,9 +1687,9 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseurl}}/api/v1/profile/{{hostname}}",
+									"raw": "{{baseUrl}}/api/v1/profile/{{hostname}}",
 									"host": [
-										"{{baseurl}}"
+										"{{baseUrl}}"
 									],
 									"path": [
 										"api",
