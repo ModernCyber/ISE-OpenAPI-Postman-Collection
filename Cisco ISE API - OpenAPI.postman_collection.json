@@ -19,7 +19,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -37,7 +37,7 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -55,7 +55,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber/{{subscriberId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -74,7 +74,7 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber/{{subscriberId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -93,7 +93,7 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber/{{subscriberId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber/{{subscriberId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -112,7 +112,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber/imsi/{{imsi}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber/imsi/{{imsi}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -132,7 +132,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/subscriber/bulk",
+									"raw": "{{baseUrl}}/api/v1/fiveg/subscriber/bulk",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -156,7 +156,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -174,7 +174,7 @@
 								"method": "POST",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -192,7 +192,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/{{userEquipmentId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -211,7 +211,7 @@
 								"method": "PUT",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/{{userEquipmentId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -230,7 +230,7 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/{{userEquipmentId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/{{userEquipmentId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -249,7 +249,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/subscriber/{{subscriberId}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/subscriber/{{subscriberId}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -269,7 +269,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/imei/{{imei}}",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/imei/{{imei}}",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -289,7 +289,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/csv",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/csv",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -308,7 +308,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{baseUrl}}/fiveg/user-equipment/bulk",
+									"raw": "{{baseUrl}}/api/v1/fiveg/user-equipment/bulk",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -7380,26 +7380,6 @@
 		{
 			"key": "baseUrl",
 			"value": "https://{{server}}:{{port}}",
-			"type": "string"
-		},
-		{
-			"key": "rest_username",
-			"value": "admin",
-			"type": "string"
-		},
-		{
-			"key": "rest_password",
-			"value": "C1sco12345",
-			"type": "string"
-		},
-		{
-			"key": "guestuser_username",
-			"value": "guestapi",
-			"type": "string"
-		},
-		{
-			"key": "guestuser_password",
-			"value": "C1sco12345",
 			"type": "string"
 		}
 	]
